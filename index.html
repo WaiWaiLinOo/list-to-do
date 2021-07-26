@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <!-- fontawsome css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/v4-shims.min.css" integrity="sha512-iaLhEHW3p+ZNgkDKBi4zEfH+aWAMGJ7I7njqD3jKnbN0ux4Gkumu2vjuI71YUov20OIPl3R32v8HO+V+6OgbvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- materialize -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <span class="card-title">Task List</span>
+                        <div class="row">
+                            <form action="" id="task-form" method="">
+                                <div class="input-field col-12">
+                                    <label for="tasl" >New Task</label>
+                                    <input type="text" name="task" id="task" class="">
+                                </div>
+                                <input type="submit" class="btn" value="Add Task">
+                                
+                            </form>
+                        </div>
+                        <div class="card-action">
+                            <h5>All Tasks</h5>
+                            <div class="input-field col-12">
+                                <label for="Filter">Filter Tasks</label>
+                                <input type="text" name="Filter" id="filter" class="">
+                            </div>
+                            <ul class="collection"></ul>
+                            <a href="#" class="btn clear-tasks">Clear Tasks</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/materialize.min.js" type="text/javascript"></script>
+    <!-- <script src="js/app.js" type="text/javascript"></script> -->
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
